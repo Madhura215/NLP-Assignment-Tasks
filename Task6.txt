@@ -1,0 +1,25 @@
+# Task 6:Comparison & Insights
+
+1.Best Preprocessing Steps:
+ 
+Lemmatization and stemming are techniques used in NLP to reduce words to their base or root forms.
+Tokenization helps in breaking down text into smaller units such as words or sentences.
+Lowercasing and stopword removal improved model performance
+
+2.Best Vectorization:
+
+Bag of Words(BoW) provides a clear and interpretable representation of text.
+TF-IDF are easy to compute with minimal computational resources.
+TF-IDF performed better than Bag of Words because it gives importance to meaningful words.
+
+3.Best Model:
+
+Logistic Regression gave highest accuracy and F1 score
+Naive Bayes was fastest but slightly less accurate
+Decision Tree overfitted the data
+
+4.Trade-offs:
+
+Logistic Regression → Accurate but slower
+Naive Bayes → Fast but assumes independence
+Decision Tree → Easy but unstable
